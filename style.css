@@ -106,8 +106,8 @@
   display: flex;
   font-family: 'Oswald', sans-serif;;
   color: whitesmoke;
-  font-size: 50px;
-  padding: 20px;
+  font-size: 100px;
+  padding: 10px;
   align-self: center;
   justify-self: center;
   //letter-spacing: 3px;
@@ -121,6 +121,7 @@
   color: white;
   font-size: 20px;
   text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .column {
@@ -144,7 +145,17 @@
 }
 
 #intro{
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+#us {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  padding: 10px 20px;
+  color: whitesmoke;
 }
 
 .Animal-information {
@@ -183,8 +194,41 @@
   justify-content: left;
 }
 
-#logo{
-  border-radius: 10px;
-  margin: 10px 10px;
+.Contact-info {
+  background-color: rgb(24, 119, 149);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
-/*comments in css are weird*/
+
+#insta{
+  filter: invert(1);
+}
+
+#gmail{
+  filter: invert(1);
+}
+
+.Contact {
+  background-color: rgb(24, 119, 149);
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  /*display: flex;
+  justify-content: flex;
+  flex-direction: row;*/
+}
+
+.Forum-Intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.Forum-Intro {
+  padding: 20px 20px;
+  border: 50px;
+}

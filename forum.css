@@ -2,6 +2,40 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /*padding: 50px 50px;*/
+  background-color: rgb(157, 195, 163);
+}
+.Forum-Intro{
+  display: flex;
+  
+}
+.HCB_comment_box{
   background-color: rgb(157, 195, 163);
 }
 
+.Contact-info {
+  background-color: rgb(24, 119, 149);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+#insta{
+  filter: invert(1);
+}
+
+#gmail{
+  filter: invert(1);
+}
+
+.Contact {
+  background-color: rgb(24, 119, 149);
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  /*display: flex;
+  justify-content: flex;
+  flex-direction: row;*/
+}
