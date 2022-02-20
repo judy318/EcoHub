@@ -1,4 +1,4 @@
-*EcoHub*
+**EcoHub**
 
 Climate Change is an issue that is affecting the world on a global scale. From air quality to ocean pollution, the scope of this issue is huge. What is one way to fight it? EcoHub, a social platform where people can become educated on the latest news on climate change, such as endangered species. EchoHub hopes to facilitate a community with open discussions on combating climate change. A "greener" version of reddit.  A place to share composting tips, garden journeys, recipes, and creative ways to upcycle clothes and other belongings.
 
