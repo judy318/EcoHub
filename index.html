@@ -1,3 +1,19 @@
+<!-- <html>
+ 
+<head>
+<title>Hello World Applet</title>
+</head>
+ 
+<body>
+ <applet code="applet.class" width="200" height="200">
+ </applet>
+</body>
+ 
+</html></pre>
+</div>
+</div> -->
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,22 +31,51 @@
           <a href = forum.html><button id = "Forum">Forum</button></a>
           <a href = help.html><button id = "Help">How You Can Help!</button></a>
        </div>
-    <div class = "new-page">
       <div class = "imageandtitle">
-        <div id = "titleandsub"
+        <div id = "titleandsub">
         <h1 class = "title">EcoHub</h1>
-        <img id = "Image" width="500" height="500" src="https://i.imgur.com/IBTpNLF.png">
-        <p class = "paragraph"> Welcome to EcoHub, an online community devoted to fighting climate change!</p>
+        <p class = "paragraph"> Welcome to EcoHub, a website devoted to helping the enviornment, and forming a community!</p>
+        <img id = "Image" width="500" height="500" src="
+https://i.imgur.com/IBTpNLF.png
+
+">
         </div>
       </div>
-      <div class = "row">
+      <!--<div class = "row">
         <div class = "column"></div>
         <div class = "column"></div>
         <div class = "column"></div>
+      </div>-->
+      <div class = "new-page">
+      <div id = "aboutit">
+        <div id = "tf">
+          <div class = container>
+          <div class = "row">
+            <div class = "col">
+            <div class = "col">
+              <h2 id = "us">What is EcoHub?</h2>
+      <p id = "intro">EcoHub was created by High School students in order to help inspire people to make a difference and help the enviornement. Eco Hub has tons of information on topics ranging from endangered species to helping the enviroment. We hope you find some useful information!</p></div>
+          </div>
       </div>
-      <h2>About Us</h2>
-      <p>EcoHub was created by High School students in order to help people understand and communicate about endangered species (and the climate crisis??). </p>
+      <!--<button onclick="hello()">Hello</button>-->
     </div> 
-    <script src="script.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+    <button onclick="hello()">Hello</button>
   </body>
-</html>
+  <script>
+      fetch("https://api.ambeedata.com/latest/by-lat-lng?lat=12.9889055&lng=77.574044", {
+	"method": "GET",
+	"headers": {
+		"x-api-key": "API_KEY",
+		"Content-type": "application/json"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.error(err);
+});
+    </script>
+</html> 

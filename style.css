@@ -1,6 +1,7 @@
 .body{
   margin: 0px;
   padding: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .body-content{
@@ -38,7 +39,7 @@
 
 #Data {
   background-color: rgb(63, 169, 160);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 10px;
@@ -55,7 +56,7 @@
 
 #Forum {
   background-color: rgb(63, 169, 160);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 10px;
@@ -72,7 +73,7 @@
 
 #Help{
   background-color: rgb(63, 169, 160);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 10px;
@@ -89,13 +90,14 @@
 }
 .imageandtitle{
   display: flex;
-  flex-direction: row;
+  flex-direction: colm;
   justify-content: center;
   background-color: rgb(157, 195, 163);
 }
+
 #Image {
-  /*display: flex;
-  justify-content: flex-start;*/*/
+  display: flex;
+  align-self: center;
   fliter: gray;
   filter: grayscale(100%);
 }
@@ -103,13 +105,12 @@
 .title {
   display: flex;
   font-family: 'Oswald', sans-serif;;
-  /*justify-content: center;*/
   color: whitesmoke;
   font-size: 50px;
-  padding: 80px;
-  /*align-self: center;
-  justify-self: center;*/
-#  //letter-spacing: 3px;
+  padding: 20px;
+  align-self: center;
+  justify-self: center;
+  //letter-spacing: 3px;
 }
 
 #titleandsub{
@@ -119,7 +120,7 @@
 .paragraph{
   color: white;
   font-size: 20px;
-  /*text-align: center;*/
+  text-align: center;
 }
 
 .column {
@@ -127,15 +128,63 @@
   width: 33.33%
   padding = 10px;
   height: 200px;
-  color: rgb(238,247,252);
+  /*color: rgb(238,247,252);*/
 }
 
 .row::after{
   content: "";
   display: table;
   clear: both;
-  background-color: rgb(238,247,252);
+  /*background-color: rgb(238,247,252);*/
 }
 
+.new-page{
+  background-color: rgb(24, 119, 149);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#intro{
+  color: white;
+}
+
+.Animal-information {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.Help-information {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+.Links {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  justify-content: center;
+}
+
+#aboutit{
+  color: white;
+  display: flex
+  flex-direction: row;
+}
+
+#tf{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#logo{
+  border-radius: 10px;
+  margin: 10px 10px;
+}
 /*comments in css are weird*/
-/*looks really good*/

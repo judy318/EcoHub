@@ -1,16 +1,16 @@
-//i have no clue what im doing- here is what came with the api
-fetch("https://animals-endangered-environmentalism.p.rapidapi.com/population/1?type=equal", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "animals-endangered-environmentalism.p.rapidapi.com",
-		"x-rapidapi-key": "99d0c7bde9mshf7816286f1336b3p1d9589jsn867e21e8c41e"
-	}
-})
-.then(response => {
-	console.log(response);
-})
-.catch(err => {
-	console.error(err);
-});
+      function hello(){
 
-// oh! thank you! someone who knows what they are doing!
+        fetch("https://api.ambeedata.com/latest/by-lat-lng?lat=12.9889055&lng=77.574044", {
+            "method": "GET",
+            "headers": {
+                "x-api-key": "46cc4cdc58511ee604341e35b3dc3b08481ef548ae900753789cea2c06d61049",
+                "Content-type": "application/json"
+            }
+        })
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err => {
+            console.error(err);
+        });
+      }
